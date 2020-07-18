@@ -1,5 +1,6 @@
 package com.tuliomagalhaes.tokenizer
 
+import com.tuliomagalhaes.tokenizer.functions.FunctionExecuter
 import java.lang.IllegalStateException
 
 class TokenParser(
@@ -56,8 +57,10 @@ class TokenParser(
             TokenType.BOOLEAN -> {
                 (token as TokenBoolean).booleanValue
             }
-            TokenType.BINDING, TokenType.STRING -> {
-                // TODO: evaluate binding
+            TokenType.BINDING -> {
+                "TODO"
+            }
+            TokenType.STRING -> {
                 token.value
             }
             else -> null

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.tuliomagalhaes.tokenizer.TokenParserTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-07-17T16:34:18" hostname="DESKTOP-T1RLJ5G" time="0.009">
+<testsuite name="com.tuliomagalhaes.tokenizer.TokenParserTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-07-18T19:01:00" hostname="DESKTOP-T1RLJ5G" time="0.041">
   <properties/>
-  <testcase name="execute_should_evaluate_expression_false_as_false" classname="com.tuliomagalhaes.tokenizer.TokenParserTest" time="0.005"/>
-  <testcase name="execute_should_evaluate_expression_1_as_1" classname="com.tuliomagalhaes.tokenizer.TokenParserTest" time="0.0"/>
-  <testcase name="execute_should_evaluate_conditional_second_param" classname="com.tuliomagalhaes.tokenizer.TokenParserTest" time="0.0"/>
-  <testcase name="execute_should_evaluate_conditional_first_param" classname="com.tuliomagalhaes.tokenizer.TokenParserTest" time="0.0"/>
-  <testcase name="execute_should_evaluate_conditional_with_gt_and_sum" classname="com.tuliomagalhaes.tokenizer.TokenParserTest" time="0.0"/>
-  <testcase name="execute_should_evaluate_gt_1_and_sum_1_and_2_as_true" classname="com.tuliomagalhaes.tokenizer.TokenParserTest" time="0.0"/>
-  <testcase name="execute_should_evaluate_expression_1_0_as_1_0" classname="com.tuliomagalhaes.tokenizer.TokenParserTest" time="0.001"/>
+  <testcase name="execute_should_evaluate_expression_false_as_false" classname="com.tuliomagalhaes.tokenizer.TokenParserTest" time="0.016"/>
+  <testcase name="execute_should_evaluate_expression_1_as_1" classname="com.tuliomagalhaes.tokenizer.TokenParserTest" time="0.002"/>
+  <testcase name="execute_should_evaluate_conditional_second_param" classname="com.tuliomagalhaes.tokenizer.TokenParserTest" time="0.006"/>
+  <testcase name="execute_should_evaluate_conditional_first_param" classname="com.tuliomagalhaes.tokenizer.TokenParserTest" time="0.001"/>
+  <testcase name="execute_should_evaluate_expression_binding_as_todo" classname="com.tuliomagalhaes.tokenizer.TokenParserTest" time="0.0"/>
+  <testcase name="execute_should_evaluate_conditional_with_gt_and_sum" classname="com.tuliomagalhaes.tokenizer.TokenParserTest" time="0.005"/>
+  <testcase name="execute_should_evaluate_gt_1_and_sum_1_and_2_as_true" classname="com.tuliomagalhaes.tokenizer.TokenParserTest" time="0.001"/>
+  <testcase name="execute_should_evaluate_expression_1_0_as_1_0" classname="com.tuliomagalhaes.tokenizer.TokenParserTest" time="0.0"/>
   <testcase name="execute_should_evaluate_gt_1_and_2_as_false" classname="com.tuliomagalhaes.tokenizer.TokenParserTest" time="0.0"/>
   <testcase name="execute_should_evaluate_sum_1_and_2_as_true" classname="com.tuliomagalhaes.tokenizer.TokenParserTest" time="0.0"/>
-  <testcase name="execute_should_evaluate_expression_true_as_true" classname="com.tuliomagalhaes.tokenizer.TokenParserTest" time="0.001"/>
+  <testcase name="execute_should_evaluate_expression_true_as_true" classname="com.tuliomagalhaes.tokenizer.TokenParserTest" time="0.0"/>
   <testcase name="execute_should_evaluate_expression_null_as_null" classname="com.tuliomagalhaes.tokenizer.TokenParserTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
