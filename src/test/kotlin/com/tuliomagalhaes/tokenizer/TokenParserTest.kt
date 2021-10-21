@@ -80,7 +80,7 @@ internal class TokenParserTest {
     }
 
     @Test
-    fun execute_should_evaluate_gt_1_and_2_as_false() {
+    fun parse_should_evaluate_gt_1_and_2_as_false() {
         // Given
         val expression = "gt(1, 2)"
 
@@ -116,7 +116,7 @@ internal class TokenParserTest {
     }
 
     @Test
-    fun execute_should_evaluate_sum_1_and_2_as_true() {
+    fun parse_should_evaluate_gt_with_sum_as_true() {
         // Given
         val expression = "gt(sum(1, 1), 1)"
 
